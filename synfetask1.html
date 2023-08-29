@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, p, ul, li, form, nav, header, footer {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav li {
+            display: inline-block; /* Display list items in a horizontal line */
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Style each section */
+        section {
+            padding: 40px 0; /* Adjust vertical padding for better spacing */
+            text-align: center; /* Center section content */
+        }
+
+        /* Style text in each section */
+        section h2 {
+            font-size: 28px; /* Increase font size for section headings */
+            color: #333;
+            margin-bottom: 20px; /* Add more space below headings */
+            font-family: Algerian, sans-serif; /* Change font style to Algerian */
+        }
+
+        section p {
+            font-size: 18px; /* Increase font size for paragraph content */
+            color: #444;
+            line-height: 1.6;
+        }
+
+        /* Style the about section columns */
+        section#about .about-column {
+            width: 25%;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 0 15px;
+            vertical-align: top; /* Align columns at the top */
+            text-align: left; /* Left-align text within columns */
+        }
+
+        /* Style the contact section */
+        section#contact {
+            background-color: #e5f0ed; /* Pastel Teal */
+            padding: 40px 0; /* Adjust vertical padding */
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around; /* Distribute items horizontally */
+            align-items: center; /* Align items vertically */
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-item img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .contact-item p {
+            font-size: 18px;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Style the projects section */
+        section#projects {
+            background-color: #f0e5f0; /* Pastel Purple */
+        }
+
+        .project {
+            margin-left: 20px; /* Add left margin for alignment */
+        }
+
+        /* Style the home section */
+        section#home {
+            background-color: #e5f0ed; /* Pastel Teal */
+            text-align: left; /* Left-align text within the home section */
+        }
+
+        /* Add bullets to home section points */
+        section#home ul {
+            list-style-type: disc; /* Use bullets */
+            margin-left: 30px; /* Add left margin for bullets */
+        }
+
+        /* Style the skills section */
+        section#skills {
+            background-color: #fff; /* White background */
+            padding: 40px 0; /* Adjust vertical padding */
+            font-size: 20px; /* Increase font size */
+        }
+
+        /* Display skills in one horizontal line */
+        section#skills ul {
+            display: flex;
+            justify-content: space-around; /* Distribute items horizontally */
+            list-style: none;
+            list-style-type: disc;
+        }
+
+        /* Style individual skill items */
+        section#skills li {
+            
+            margin-right: 10px; /* Add spacing between skills */
+        }
+    </style>
+    <title>The Tanvi's Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Hello!</h2>
+        <ul>
+            <li>My name is Tanvi Dedhia.</li>
+            <li>I recently entered 2nd year of Computer Engineering @ DJ Sanghvi College of Engineering.</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-column">
+            <p>
+                I have a passion for problem-solving and a love for programming. I thrive in collaborative environments and excel in teamwork, thanks to my communication and interpersonal skills.
+            </p>
+        </div>
+        <div class="about-column">
+            <p>
+                As a student, I've honed my programming skills and have a good understanding of various programming languages and tools. I enjoy tackling complex problems, applying logical reasoning to find innovative solutions, and managing my time effectively to meet project deadlines.
+            </p>
+        </div>
+        <div class="about-column">
+            <p>
+                Beyond my technical abilities, I'm a firm believer in continuous learning and self-improvement. I'm always eager to take on new challenges and expand my skill set to stay at the forefront of the ever-evolving tech industry.
+            </p>
+        </div>
+        <div class="about-column">
+            <p>I'm excited about the opportunity to work with like-minded individuals and contribute my technical and soft skills to make a positive impact on projects and teams.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>I made this page as part of Synapse front end task 1. I used html, css and javascript to develop this.</p>
+        </div>
+        <p>PS: I have not made any projects for any competition yet.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="https://th.bing.com/th/id/OIP.VPVx8mYEC2KaNEJYQJknvQHaEd?pid=ImgDet&rs=1" alt="Gmail Icon">
+                <p>td99star@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <img src="https://th.bing.com/th/id/OIP.JCI8klaaA1w4LCtljpeJoAHaHa?pid=ImgDet&rs=1" alt="Instagram Icon">
+                <p>thetanvi04</p>
+            </div>
+            <div class="contact-item">
+                <img src="https://th.bing.com/th/id/OIP.b5oDvUVU5UVN4cefTJGq3wHaHa?pid=ImgDet&rs=1" alt="LinkedIn Icon">
+                <p><a href="https://www.linkedin.com/in/tanvi-dedhia-8a0787251/">LinkedIn Profile</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Tanvi Dedhia</p>
+    </footer>
+</body>
+</html>
